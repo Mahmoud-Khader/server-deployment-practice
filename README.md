@@ -32,6 +32,8 @@ You will repeat this process for every server based lab moving forward. Keep the
 
 
 > the Url to apoint to the heroku application : https://mahmoud-server-deploy-prod.herokuapp.com/ 
+> 
 > Github actions : https://github.com/Mahmoud-Khader/server-deployment-practice/actions 
+> 
 > pull request : https://github.com/Mahmoud-Khader/server-deployment-practice/pull/1
 > 
