@@ -10,7 +10,7 @@ describe('express server',()=>{
         //arrange
         let param='/';
         let status = 200;
-        let test = 'Hello Mahmoud';
+        let text = 'Hello Mahmoud';
         //act
         const response = await request.get(param);
         //assert
@@ -43,7 +43,7 @@ describe('express server',()=>{
         const response = await request.get(param);
         //assert
         expect(response.status).toBe(status);
-        expect(response.body.route).toBe(AudioParam);
+        expect(response.body.route).toBe(param);
 
     });
 
